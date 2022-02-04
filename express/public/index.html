@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JUET college space</title>
+        <link rel="icon" href="images/download.jfif" type="image/png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/download.jfif"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Jaypee University of Engineering and Technology</h1>
+                <p>
+                    Jaypee University of Engineering & Technology, Guna has been established vide Government of Madhya Pradesh gazette extra ordinary No.3 of 2010 dated 29th April 2010 as a private university in the State of MP under the provisions of MP Niji Vishwavidyalaya Adhiniyam 2007. The university has been notified by the UGC under section 2(f) of the UGC Act, 1956 and Accredited by NAAC with Grade “A” in very first cycle of Accreditation in 2016
+                </p>
+            </div>
+        </section>
+
+
+<!-- ------- CAMPUS ------- -->
+
+<section class="campus">
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/chatbot.png">
+            <div class="layer">
+                <a href=chatbot/index2.html><h3>CHATBOT</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/notes2.png">
+            <div class="layer">
+                <a href=getnote.html><h3>LEARNING<br>RESOURCE</h3></a>
+            </div>
+        </div>
+            <div class="campus-col">
+                <img src="images/unnamed.png">
+                <div class="layer">
+                    <a href=https://webkiosk.juet.ac.in><h3>WEBKIOSK</h3></a>
+                </div>
+            </div>
+    </div>
+</section> 
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <p>
+        Jaypee University of Engineering and Technology, A-B Road, Raghogarh, Distt. - Guna (M.P.), PIN - 473226, INDIA
+        <br>Ph: +91-7544-267051, 267310, 267311, 267312 Email : contact@juet.ac.in
+    </p>
+    <div class="icons">
+        <a class="plain-link" href="https://www.facebook.com/JaypeeUniversityGuna"><i class="fa fa-facebook"></i></a>
+        <a class="plain-link" href="https://www.instagram.com/jaypee_university_guna/"><i class="fa fa-instagram"></i></a>
+        <a class="plain-link" href="https://www.youtube.com/channel/UCGZys7YYR7DAFDg0TcXxY4A"><i class="fa fa-youtube"></i></a>
+    </div>
+</section>
+
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="icon" href="images/download.jfif" type="image/png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-4">
+            <nav>
+                <a href="index.html"><img src="images/download.jfif"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>CONTACT  US</h1>
+        </section>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/24d6377d30/guna/" data-label_1="GUNA" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="3" data-theme="metallic" >GUNA WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+<!-- --------Contact us content-------- -->
+
+<section class="location">
+    <h1>Our Location</h1>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.459231728329!2d77.15869901403862!3d24.43484756820317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397aff3abbbad69f%3A0x9af2aa865b395399!2sJaypee%20University%20Of%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1638271655263!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <h1>Our Contact Details</h1>
+            <div>
+                <a class="plain-link" href="https://www.google.co.in/maps/place/Jaypee+University+Of+Engineering+And+Technology/@24.4348476,77.158699,17z/data=!3m1!4b1!4m5!3m4!1s0x397aff3abbbad69f:0x9af2aa865b395399!8m2!3d24.4348427!4d77.1608877"><i class="fa fa-home"></i></a>
+                <a class="plain-link" href="https://www.google.co.in/maps/place/Jaypee+University+Of+Engineering+And+Technology/@24.4348476,77.158699,17z/data=!3m1!4b1!4m5!3m4!1s0x397aff3abbbad69f:0x9af2aa865b395399!8m2!3d24.4348427!4d77.1608877">
+                <span>
+                    <h5>Jaypee University of Engineering and Technology</h5>
+                    <p>A-B Road, Raghogarh, Distt. - Guna (M.P.), PIN - 473226, INDIA</p>
+                </span>
+                </a>
+            </div>
+            <div>
+                <a class="plain-link" href="tel:180030701556"><i class="fa fa-phone"></i></a>
+                <a class="plain-link" href="tel:180030701556">
+                <span>
+                    <h5>180030701556</h5>
+                   </span>
+                </a>
+            </div>
+            <div>
+                <a class="plain-link" href="https://juet.ac.in/Contact/ContactUs.php"><i class="fa fa-envelope-o"></i></a>
+                <span>
+                    <a class="plain-link" href="https://juet.ac.in/Contact/ContactUs.php">
+                    <h5>contact@juet.ac.in</h5>
+                    <p>Email for admission related queries.</p>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <h1>Post your Query</h1>
+            <form action="https://formspree.io/f/xrgrdkry" id="contact-form" method="POST">
+                <input type="text" name="Name" id="Name" placeholder="Enter your Name" required>
+                <input type="email" name="Email" id="Email" placeholder="Enter your Email" required>
+                <input type="text" name="Subject" id="Subject" placeholder="Enter your Subject" required>
+                <textarea rows="8" name="Message" id="Message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn submit-btn">Send Message</button>
+            </form>
+            <div id="status"></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <p>
+        Jaypee University of Engineering and Technology, A-B Road, Raghogarh, Distt. - Guna (M.P.), PIN - 473226, INDIA
+        <br>Ph: +91-7544-267051, 267310, 267311, 267312 Email : contact@juet.ac.in
+    </p>
+    <div class="icons">
+        <a class="plain-link" href="https://www.facebook.com/JaypeeUniversityGuna"><i class="fa fa-facebook"></i></a>
+        <a class="plain-link" href="https://www.instagram.com/jaypee_university_guna/"><i class="fa fa-instagram"></i></a>
+        <a class="plain-link" href="https://www.youtube.com/channel/UCGZys7YYR7DAFDg0TcXxY4A"><i class="fa fa-youtube"></i></a>
+    </div>
+</section>
+
+<!-- -------------JavaScript for form submission------------ -->
+<script src="form.js"></script>
+
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
